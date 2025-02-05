@@ -76,3 +76,4 @@ workflows:
       - integration_tests:
           requires:
             - build
+sudo mv ~/docker-compose /usr/local/bin/docker-compose.fix
